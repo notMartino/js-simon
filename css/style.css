@@ -5,8 +5,41 @@
 }
 body{
     background-color: cadetblue;
+    font-family: 'Chango', cursive;
+}
+.green-text{
+    text-shadow: 2px 2px 1px greenyellow;
+}
+.red-text{
+    text-shadow: 2px 2px 1px red;
+}
+.yellow-text{
+    text-shadow: 2px 2px 1px yellow;
 }
 
 section{
+    padding: 50px;
     text-align: center;
+    color: black;
+    text-shadow: 2px 2px 0 white;
+}
+.separe{
+    margin: 20px auto;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+.no-border{
+    border: 0;
+}
+
+section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+section span{
+    margin: 0 10px;
+}
+
+#inputNumbers, #rndNumbers, #correctNumbers, #totalPoints{
+    font-size: 30px;
 }
